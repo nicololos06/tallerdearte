@@ -148,23 +148,25 @@
     }
     #hero:hover .himg-inner { transform: scale(1.04); }
 
-    /* Placeholder art images via CSS gradients */
     .img-paint1 {
-      background-image:
-        radial-gradient(ellipse at 30% 40%, #c4956a44 0%, transparent 60%),
-        radial-gradient(ellipse at 70% 70%, #7a906055 0%, transparent 55%),
-        linear-gradient(135deg, #d4b896 0%, #8c6a4a 40%, #4e6651 100%);
-    }
-    .img-paint2 {
-      background-image:
-        radial-gradient(ellipse at 60% 30%, #b5784a66 0%, transparent 50%),
-        linear-gradient(45deg, #f0e8d8 0%, #c4956a 50%, #2e4a32 100%);
-    }
-    .img-paint3 {
-      background-image:
-        radial-gradient(ellipse at 40% 60%, #7a907044 0%, transparent 55%),
-        linear-gradient(200deg, #e2d5c0 0%, #8c5230 60%, #4a3728 100%);
-    }
+  background-image:
+    linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
+    url('../docs/img/arte1.webp');
+}
+
+.img-paint2 {
+  background-image: url('../docs/img/arte2.webp');
+}
+
+.img-paint3 {
+  background-image: url('../docs/img/arte3.webp');
+}
+
+.himg-inner {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
     .hero-badge {
       position: absolute; bottom: 3rem; left: -1rem;
