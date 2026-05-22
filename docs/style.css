@@ -151,15 +151,15 @@
     .img-paint1 {
   background-image:
     linear-gradient(rgba(0,0,0,0.15), rgba(0,0,0,0.15)),
-    url('img/arte1.webp');
+    url('arte1.webp');
 }
 
 .img-paint2 {
-  background-image: url('img/arte2.webp');
+  background-image: url('arte2.webp');
 }
 
 .img-paint3 {
-  background-image: url('img/arte3.webp');
+  background-image: url('arte3.webp');
 }
 
 .himg-inner {
